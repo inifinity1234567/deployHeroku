@@ -18,6 +18,6 @@ app.get("/post",(req,res) =>{
 })
 
 
-app.listen(8000,() =>{
+app.listen(process.env.PORT,() =>{
     console.log(`Server started 8000`)
 })
